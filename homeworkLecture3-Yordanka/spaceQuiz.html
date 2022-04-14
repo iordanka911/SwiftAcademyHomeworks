@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <title>Short space quiz</title>
+</head>
+<body>
+    <header>
+        <h1>Short space quiz</h1>
+        <div>
+            <h3>
+            After you select your answer, 
+            click the next button to go to the
+            next question
+            </h3>
+        </div>
+    </header>
+    <br/>
+    <main>
+        <h2>
+            <b>
+            By watching the video, can you guess what is the size of the space station?
+            </b>
+        </h2>
+        <video controls height="500">
+            <source src="./iss animation.mp4" type="video/mp4"/>
+        </video>
+
+        <br/>
+
+        <ol type="A">
+            <li>
+                <input type="radio" name="firstQuestion" id="answer1" value="answer1"/>       
+                <label for="answer1">250mX325m</label>           
+            </li> 
+
+            <li> 
+                <input type="radio" name="firstQuestion" id="answer2" value="answer2"/>       
+                <label for="answer2">60mX24m</label>
+            </li> 
+
+            <li>
+                <input type="radio" name="firstQuestion" id="answer3" value="answer3"/>       
+                <label for="answer3">109mX73m</label>
+            </li>  
+
+            <li>   
+                <input type="radio" name="firstQuestion" id="anwser4" value="answer4"/>       
+                <label for="answer4">206mX176m</label>
+            </li> 
+        </ol>
+        
+        <button onclick="document.location='spaceQuiz2.html'">Next question -></button>     
+        <!--<a href="question2.html"><button>Next question ></button></a>-->
+    </main>
+
+</body>
+</html>

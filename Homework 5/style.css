@@ -1,0 +1,17 @@
+img{
+    border-radius: 50%;
+}
+
+.tableStyle{
+    background-color: #e74c3c;
+    
+}
+.competition{
+    color: white;
+    background-color: #34495e;
+    width: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.makeYellow{
+    color: #f1c40f;
+}

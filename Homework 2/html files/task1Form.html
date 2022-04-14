@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <form method="GET" action="./serverSimulation.html">
+        <div id="container">
+            <h1>Please fill the form</h1>  
+            <br/>
+            <h2>Creating new article</h2>
+
+            <section>
+                <label for="articleBy">Article by:</label>
+                <input required type="text" id="articleBy" name="articleCreator"/>
+            </section>
+            <br/>
+
+            <section>
+                <label for="articleTitle">Article title:</label>
+                <input required type="text" id="articleTitle" name="articleTitle"/>
+            </section>
+            <br/>
+
+            <section>
+                <label for="selectPicture">Select picture:</label>
+                <input required type="file" name="mainPicture" accept="image/*" />
+            </section>
+            <br/>
+
+            <section>
+                <label for="articleBody">Article body:</label>
+                <textarea type="text" id="articleBody" name="articleBody" cols="15" rows="3"></textarea>
+            </section>
+            <br/>
+
+        <section class="imagePosition">
+            <span>Image position:</span>
+            <br/>           
+            <label for="Left">Left</label>
+            <input type="radio" name="imagePosition" id="Left" value="left"/>
+            <br/>
+            <label for="right">Right</label>   
+            <input type="radio" name="imagePosition" id="Right" value="right"/> 
+        </section>
+        <br/>
+
+            <section class="showDate">
+                <span>Show date:</span>           
+                <input required type="checkbox" name="hasDate"/>           
+            </section>
+
+            <section class="useTwoColumns">
+                <span>Use two columns:</span>           
+                <input type="checkbox" name="useTwoColumns"/>           
+            </section>
+
+            <section class="submission">
+                <input type="submit" value="Submit Query"/>           
+            </section>
+        </div>        
+    </form>
+</body>
+</html>

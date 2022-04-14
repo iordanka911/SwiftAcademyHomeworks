@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">   
+    <title>Contact us</title>
+</head>
+<body>
+    <table style="width:100%">
+        <tr>
+            <thead>
+                <th style="width:10%">
+                    <img src="./../images/Logo.png" alt="Logo" width="100">
+                </th>
+                <th>
+                    <a href="./task2AboutUs.html">About us</a>
+                </th>
+                <th>Contact us</th>
+            </thead>
+        </tr>
+    </table>
+
+    <form method="GET" action="./serverSimulation.html">              
+        <table style="width: 100%">
+            <th style="text-align: left">
+                <h1>Contact us</h1>
+
+                 <p>
+                 If you have questions about anything related to 
+                 our site, please feel free to ask us with the form
+                 below.
+                 </p>  
+
+                <section>
+                    <label for="yourName">Your name:</label>
+                    <input required type="text" name="articleCreator"/>
+                </section>
+
+                <br/>
+
+                <section>
+                    <label for="creatorEmail">Email:</label>
+                    <input required type="text" name="articleTitle"/>
+                </section>
+                
+                <br/>
+
+                <section class="reasonContact">
+                    <label for="city">Reason for contacting us:</label>
+                    <select name="reason" id="reason">
+                        <option value="I need help">I need help</option>
+                        <option value="Thechnical support">Thechnical support</option>
+                        <option value="Financial support">Financial support</option>              
+                    </select>
+                </section>
+                
+                <br/>
+
+                <section>
+                    <label for="yourMessage">Your message:</label>
+                    <textarea required type="text" name="articleBody" cols="15" rows="3"></textarea>
+                </section>
+                <br/>  
+
+                <section class="submission">
+                    <input type="submit" value="Submit Query"/>           
+                </section>                    
+            </th>
+            <th>
+                <img src="./Support.jpg"  alt="contactUs">
+            </th>
+        </table>              
+    </form>
+</body>
+</html>

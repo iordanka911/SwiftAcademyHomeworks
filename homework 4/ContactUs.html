@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <iframe src="./nav.html" frameborder="0"></iframe>
+    <h1>Contact us</h1>
+    <p>Fill our form and learn more about Solar system</p>
+    <form method='GET' action='./serverSimulation.html' name='contactform' id='contactform'>
+        <table>                   
+            <td>
+                <th>
+                    <tr>
+                        <td>
+                            <label for='fullname'>Your Name:</label><br/>
+                        </td>
+                        <td>
+                            <input type='text' name='fullname' />
+                        </td>                        
+                    </tr>
+        
+                    <tr>
+                        <td>
+                            <label for='email' >Email Address:</label>
+                        </td>
+                        <td>
+                            <input type='text' name='email' />
+                        </td>                        
+                    </tr>
+        
+                    <tr>
+                        <td>
+                            <label for="reason">Reason for contacting us:</label>
+                        </td>        
+                        <td>
+                            <select name="reason" id="reason">
+                                <option value="Explore the solar system">Explore the solar system</option>
+                                <option value="Joining our training course">Joining our training course</option>
+                                <option value="Individual lessons with our trainers">Individual lessons with our trainers</option>              
+                            </select> 
+                        </td>  
+                        <td></td>             
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="yourMessage">Your message:</label>
+                        </td>
+                        <td>
+                            <textarea required type="text" name="articleBody" cols="15" rows="3"></textarea>
+                            <section>
+                                <label for="selectPicture">Select picture:</label>
+                                <input required type="file" name="mainPicture" accept="image/*" />
+                            </section>
+                        </td>                        
+                    </tr>           
+                  
+                </th>
+                         
+            </td>
+            <td><img src="./Gallery/v5n22xGyNNHLzSnSArbrVH.jpg" alt="solarSystem" width="200"></td> 
+        </table>       
+    
+        <input type='submit' name='submit' value='Submit Form' />
+    </form>
+        
+        
+</body>
+</html>
