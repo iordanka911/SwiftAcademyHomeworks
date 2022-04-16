@@ -1,0 +1,173 @@
+@font-face {
+  font-family: DIN;
+  src: url(fonts/D-DIN.woff2);
+}
+@font-face {
+  font-family: DIN;
+  src: url(fonts/D-DIN-Bold.woff2);
+  font-weight: bold;
+}
+.mainTableStyle {
+  font: 14px/18px D-DIN-Medium, Arial, Verdana, sans-serif;
+  padding-left: 200px;
+  padding-top: 300px;
+  margin-top: 50px;
+  border-collapse: collapse;
+}
+.mainTableStyle td {
+  border-bottom: 1px solid grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.mainTableStyle span {
+  color: grey;
+}
+body {
+  background-color: black;
+  margin: 0;
+  font-family: DIN;
+}
+.mainContentSpacing {
+  padding-left: 20%;
+}
+header {
+  height: 100px;
+  width: 80%;
+  padding-left: 20%;
+  position: fixed;
+}
+header #mainHeaderNav {
+  float: left;
+  padding-top: 30px;
+}
+#mainHeaderNav > a,
+#extraHeaderNav > a {
+  margin: 0 12px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#extraHeaderNav > a:hover,
+#mainHeaderNav > a:not(:first-child):hover {
+  border-bottom: 1px white solid;
+  padding-bottom: 3px;
+}
+#extraHeaderNav {
+  /* background-color: azure; */
+  float: right;
+}
+#siteLogo > svg {
+  fill: aliceblue;
+  height: 26px;
+}
+/* Hero image */
+#heroImage {
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-image: url(imagesFalcon/f9_feature.webp);
+  color: white;
+  text-align: center;
+}
+#heroImage #heroImageDescription {
+  padding-top: 250px;
+}
+#heroImage h1 {
+  font-size: 80px;
+  line-height: 0;
+}
+/* statistics */
+#statistics {
+  width: 100%;
+  height: 220px;
+  color: white;
+}
+.mainContentSpacing .statisticItem {
+  display: inline-block;
+  text-align: center;
+  padding-left: 100px;
+}
+.mainContentSpacing .statisticItem .statisticsNumber {
+  font-size: 140px;
+}
+.mainContentSpacing .statisticItem .statisticsLabel {
+  font-size: 22px;
+}
+.fairingsF9 {
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-image: url(imagesFalcon/WebsiteF9Fairings_Lines_Desktop.webp);
+}
+.fairingsF9 .fairingItem {
+  position: absolute;
+  left: 410px;
+  right: 20px;
+  width: 300.38px;
+  height: 345.45px;
+  color: white;
+  padding-top: 300px;
+  padding-top: 330px;
+}
+.fairingRender {
+  background-image: url(imagesFalcon/WebsiteF9Fairings_Render_Desktop.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  height: 90vh;
+}
+.fairingRender .table-overview {
+  position: absolute;
+  color: white;
+  font: 14px/18px D-DIN-Medium, Arial, Verdana, sans-serif;
+  padding-left: 200px;
+  padding-top: 300px;
+  margin-top: 50px;
+  border-collapse: collapse;
+}
+.fairingRender .table-overview td {
+  border-bottom: 1px solid grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.fairingRender .table-overview span {
+  color: grey;
+}
+.dotSection {
+  color: white;
+}
+.dotSection .dotItem {
+  padding-left: 45%;
+  padding-top: 95%;
+}
+.dotSection .dotItem .dot {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+}
+.firstStage {
+  background-image: url(imagesFalcon/WebsiteF9S1_Render_Desktop.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+}
+.firstStage .firstStageItem {
+  position: absolute;
+  left: 410px;
+  right: 20px;
+  width: 300.38px;
+  height: 345.45px;
+  color: white;
+  padding-top: 300px;
+}
